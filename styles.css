@@ -1,0 +1,62 @@
+body {
+  font-weight: lighter;
+}
+.container {
+  max-width: 1200px;
+  margin: 75px auto;
+}
+header {
+  padding: 75px 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 92px;
+}
+header .heading {
+  position: relative;
+  margin: 0 auto;
+}
+header h4 {
+  margin: 20px 0;
+}
+header span {
+  position: absolute;
+  content: "";
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 8px;
+  background: #6c63ff;
+  z-index: -10;
+}
+main .container img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+main .container .col-md-6 {
+  position: relative;
+  margin: 0 0 40px 0;
+}
+main .container .col-md-6 h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.purple {
+  color: #6c63ff;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+form input {
+  width: 100%;
+  margin: 10px auto;
+}
+form input[type="submit"] {
+  background: #6c63ff !important;
+  border: none;
+}
