@@ -67,20 +67,32 @@
         <div class="form-header text-center"><h3>Get in touch!</h3></div>
         <form action="https://formspree.io/hello@feedbax.co.uk" method="POST">
           <div class="form-group"></div>
-          <label for="name">Name:</label>
-          <input type="text" name="name" class="form-control" />
-          <label for="email">Email:</label>
-          <input type="email" name="_replyto" class="form-control" />
-          <label for="website">Website:</label>
-          <input type="text" name="website" class="form-control" />
-          <label>Number of pages: </label>
-          <select class="" name="number_of_pages">
-            <option value="">1</option>
-            <option value="">2</option>
-            <option value="">3</option>
-            <option value="">4</option>
-            <option value="">5+</option>
-          </select>
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            placeholder="Your name"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            class="form-control"
+            placeholder="Your email address"
+          />
+          <input
+            type="text"
+            name="website"
+            class="form-control"
+            placeholder="Your website URL"
+          />
+          <textarea
+            name="message"
+            rows="4"
+            cols="80"
+            class="form-control"
+            placeholder="Your message (inc. how many pages you would like reviewed)"
+          ></textarea>
+
           <input
             type="submit"
             value="Send"

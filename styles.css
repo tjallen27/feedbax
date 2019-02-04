@@ -52,16 +52,9 @@ form {
   max-width: 600px;
   margin: 0 auto;
 }
-form label {
-  font-weight: bold;
-  margin: 0;
-}
 form input {
   width: 100%;
-  margin: 0px auto 15px;
-}
-form select {
-  margin: 0px auto 15px;
+  margin: 10px auto;
 }
 form input[type='submit'] {
   background: #6c63ff !important;
