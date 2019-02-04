@@ -21,7 +21,7 @@ header h4 {
 }
 header span {
   position: absolute;
-  content: "";
+  content: '';
   bottom: 14px;
   left: 50%;
   transform: translateX(-50%);
@@ -52,11 +52,18 @@ form {
   max-width: 600px;
   margin: 0 auto;
 }
+form label {
+  font-weight: bold;
+  margin: 0;
+}
 form input {
   width: 100%;
-  margin: 10px auto;
+  margin: 0px auto 15px;
 }
-form input[type="submit"] {
+form select {
+  margin: 0px auto 15px;
+}
+form input[type='submit'] {
   background: #6c63ff !important;
   border: none;
 }
