@@ -3,10 +3,10 @@ body {
 }
 .container {
   max-width: 1200px;
-  margin: 75px auto;
+  margin: 100px auto;
 }
 header {
-  padding: 75px 0;
+  padding: 50px 0;
   text-align: center;
 }
 header h1 {
@@ -35,18 +35,42 @@ main .container img {
   display: block;
   margin: 0 auto;
 }
-main .container .col-md-6 {
+main .container.grid .col-md-6 {
   position: relative;
   margin: 0 0 40px 0;
 }
-main .container .col-md-6 h3 {
+main .container.grid .col-md-6 h3 {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  text-align: center;
 }
 .purple {
   color: #6c63ff;
+}
+.container.testimonials .card {
+  width: 100% !important;
+  border: none;
+}
+.container.about {
+  font-size: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container.about li {
+  font-size: 16px;
+}
+.card-header {
+  background-color: #fff !important;
+}
+ul {
+  margin: 10px;
+  padding: 0;
+}
+ul li {
+  list-style: none;
 }
 form {
   max-width: 600px;
@@ -59,4 +83,14 @@ form input {
 form input[type='submit'] {
   background: #6c63ff !important;
   border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  main .container.grid .col-md-6 {
+    position: relative;
+    margin: 60px 0;
+  }
+  main .container.grid .col-md-6 h3 {
+    font-size: 18px;
+  }
 }
